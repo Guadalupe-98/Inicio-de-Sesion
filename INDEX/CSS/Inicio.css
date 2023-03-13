@@ -1,0 +1,54 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#ffffffb3, #2618e391);
+}
+
+
+
+.contenedor{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(136, 78, 165, 0.522);
+    border-radius:10px;
+    border: 1px solid rgba(11, 8, 51, 0.147);
+
+}
+
+.contenedor .elemento label{
+
+    color: silver;
+
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #a046dcb3;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}

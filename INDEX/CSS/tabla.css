@@ -1,0 +1,31 @@
+caption{
+    text-align: center;
+    color: rgb(21, 96, 167);
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    line-height: 80px;
+    
+}
+
+table,th,td{
+
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+th{
+    color: white;
+    background-color: rgb(37, 114, 186);
+}
+tr:nth-child(even){
+    background-color: rgb(219, 229, 237); /* renglones par*/
+}
+
+tr:nth-child(odd){
+    background-color: aliceblue; /*renglores impares*/
+}
